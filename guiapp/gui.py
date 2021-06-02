@@ -1,7 +1,7 @@
 #createbutton(imgobj,btntext,(starcoord/center(of btn,text)),(endcoord/radius()of btn/text)),shape,(colourbtn,colourtxt),line,font,fontscale,(btnthickness,textthickness))
 #--------------------------------------------------------------------------------->
 #problems
-#palette not working properly problem with starting(maybe too many threads are causing a problem)
+#Have to add locks to ensure proper functioning
 
 import cv2 as cv
 import numpy as np
